@@ -1,11 +1,8 @@
--- phpMyAdmin SQL Dump
--- version 4.8.5
--- https://www.phpmyadmin.net/
---
+
 -- Host: 127.0.0.1
--- Generation Time: Jun 11, 2019 at 12:22 PM
--- Server version: 10.1.38-MariaDB
--- PHP Version: 7.3.3
+-- Generation Time: Oct 21, 2019 at 4:00 PM
+-- Server version: 8.0.17-MySQLDB
+-- PHP Version: 7.2.21
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -41,9 +38,9 @@ CREATE TABLE `crud` (
 --
 
 INSERT INTO `crud` (`id`, `name`, `email`, `phone`, `city`) VALUES
-(40, 'divya', 'amohapatra7000@gmail.com', '9114950911', 'balasore'),
-(42, 'Divyasundar sahu', 'amohapatra7000@gmail.com', '999999999', 'balasore'),
-(43, 'arpita', 'amohapatra7000@gmail.com', '9114950911', 'balasore');
+(1, 'Joyce', 'joycemeyer@gmail.com', '7326584578', 'new jersey'),
+(2, 'Woody', 'woodywoodson@gmail.com', '6149875476', 'columbus'),
+(3, 'Joel', 'joelosteen@gmail.com', '3146785647', 'st.louis');
 
 --
 -- Indexes for dumped tables
